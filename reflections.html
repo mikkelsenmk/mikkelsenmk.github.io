@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Madalyn Mikkelsen</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="academics.html">Academics</a>
+                    </li>
+                    <li>
+                        <a href="resume.html">Resume</a>
+                    </li>
+                    <li>
+                        <a href="reflections.html">Critical Reflections</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/Slide1.png')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Critical Reflections</h1>
+                        <h2 class="subheading">A collection of thoughts about my professional and academic work throughout my education.</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+		    <h2 class="section-heading">The Benefit of Scheduling Writing Time</h2>
+
+		    <p> I have always struggled with writing. It is my weakest subject and I have been self conscious of my peers and advisor reading my writing for as long as I 		        can remember. During my first semester of graduate school I was given the opportunity to take a technical writing workshop, where I was introduced to 				methods to assist with my writing. What I learned in this workshop was that writing, like any other skill, needs practice. People are not born as good 				writers and with work and consistent effect, anyone can write well. I know this seems obvious, but before this I had never considered that I could become a 			better writer. I knew I could work harder to finish earlier so I could have my work reviewed by others, but didn't think that would actually improve what I 			was able to write down. I started scheduling time into my day for writing each morning when I got to work. I would spend 15-20 minutes writing while the 			office was quite and still in the mornings. I made schedules and deadlines for the writing I had to do. I stopped dreading writing and started to look 				forward to the little bits of progress I was making everyday.  Writing every day totally changed my perspective on how to approach a larger project that seemed unattainable. Like anything, writing is a problem that needs to be solved. As an engineer, I have been taught to break down problems into manageable sections and solve the pieces one at a time. Once I started to approach writing in the same way, my academic life changed. </p>
+
+                    <h2 class="section-heading">L-System Design for SMA Actuated Morphing Airfoil</h2>
+
+		    <p> During my a graduate course in multidisciplinary design and optimization, I got the opportunity to create a process to evaluate morphing airfoils with 				internal topologies generated with a novel L-System based design process. The next semester, I learned that one of my peers in the MAESTRO group was 				working on a project that could benefit from this process. As a result, I committed to revamping the work I had done in class and improving the design 				process to decrease run time. </p>
+
+		    <a href="#">
+                        <img class="img-responsive" src="img/morhping_airfoil_problem_statement.pdf" alt="">
+                    </a>
+
+
+		    <p> This project was based on a UH-60 rotor blade and needed to be able to morph between two optimal shapes for different flight conditions. Based on previous 			knowledge of rotor blades, an initial internal topology was created as shown in the figure above. This design features a very stiff leading edge D spar 			and an empty trailing edge for the topology to be defined by the SPIDRS algorithm. I ran an optimization using a loosely coupled fluid structure 				interaction analysis I had created in my class and the results are shown below. </p>
+			
+		    <a href="#">
+                        <img class="img-responsive" src="img/rotor_pareto_BATT_with_drawings.pdf" alt="">
+                    </a>
+
+
+		   <p>These results were very interesting, because an initially unexpected band appeared in the final Pareto front. From this band, we realized there is a 				theoretical limit where the algorithm places no actuators in the design domain. This limit is the top of the band presented. The variation present in the			band is due to different internal layouts (without actuators but with structural members) provide different amounts of stiffness and deform under 				aerodynamics loads differently. </p>
+
+		   <p> This project gave me the opportunity to improve on something that I had worked hard on, but wasn't proud of the final results. With the knowledge of how to 			implement the entire process under my belt, I was able to sit down and think critically about my work and solve issues as they arose. Often times, 				revisiting work seems counter productive or unnecessary, but in this case by revisiting this problem I was able to truly demonstrate the capabilities of 			the process. </p>
+
+
+                    <h2 class="section-heading">Self Intersection in Origami Design</h2>
+
+		    <p> During the course of my graduate studies, I was tasked with using a novel design scheme to make origami fold patterns. A student in the Maestro group, Dr. 			Brent Bielefeldt, had developed an interpreter to develop structures based on a recursive encoding system. The recursive encoding systems are know as 				Lindeymayer Systems and were originally developed to model cellular division in biology. Brent's project worked closely with the Air Force Research Labs 			(AFRL) RQ Division. Meanwhile, AFRL RX Division was completing work on designing origami fold patterns from different topology generation methods. This 			work had proven successful but suffered from a limited design space due to the necessity of ground structure from the topology generation method used. 				During a visit from AFRL RX they mentioned the tools they had created to solve origami folding problems and I jumped at the opportunity to implement 				Brent's new tool for structure creation in the origami design space. </p>
+                	
+		    <a href="#">
+                        <img class="img-responsive" src="img/square_twist_intersection.pdf" alt="" class="center">
+                    </a>
+
+		    <p> I adapted Brent's topology creation process and utilized a folding simulation tool from AFRL to create an optimization that could generate fold patterns to 			meet specific kinematic objectives (i.e. move certain nodes in specified directions). Noticeably, the simulation required significant human post processing 			because, like most folding codes, full contact modeling was not performed and self intersection occurred within the faces of the design. Self intersection 			is shown in the figure below and is common in many origami folding simulations, because contact modeling is generally orders of magnitude more 					computationally expensive than the solvers used for fold angles. The solution to this problem needed to be computationally inexpensive, but effective at 			finding out when self intersection occurs. This would provide improve optimization results and remove significant man hours in post processing. </p>
+
+		    <a href="#">
+                        <img class="img-responsive" src="img/square_twist_no_intersection.pdf" alt="" >
+                    </a>
+
+		    <p> In the folding simulation tool developed by AFRL, the based element shape is triangular. This element shape was chosen to model the fold pattern as a truss 			with a torsional spring component. For more detailed information on the folding simulation code visit, https://www.sciencedirect.com/science/article/pii/S0020768318301963. Knowing that the triangular elements would always be in place, I was able to utilize and algorithm developed to render 3D computer graphics quickly. The Moller Algorithm checks for intersections between two triangles in 3D space and is a simple and quick solution to self intersection in origami. </p>
+
+		    <p> Originally, I felt like this problem was outside of the scope of my work and would take to long to solve. No one in the academic community studying origami 			has bothered to model self intersection in these type of design problems. However, after some time thinking about the problem as a fresh graduate student, 			I was able to adapt something that I knew of from another field to solve my problem. Even though this project is very extensive and has many technical 				results, I am most proud of solving the simple issue of self intersection.  </p>
+
+
+		    <h2 class="section-heading">Finish Graduate School During a Global Pandemic</h2>
+
+		    <p> Like many people in academic settings, I spend a lot of time alone while writing. Since November of 2019, I have been in the writing phase of my thesis manuscript and have worked from home several days a week. For this reason, I didn't really think much about the looming pandemic when news outlets started reporting school closures in March. In fact, I encouraged my roommate to travel to Seattle (at the time the heart of the epidemic in the US) to celebrate her last spring break as a student. By the end of the next week grocery stores were sold out, classes were cancelled for the rest of the semester, and I wasn't able to travel to see my boyfriend or family. I thought this was the PERFECT environment for writing my thesis! I will be in total isolation for a few weeks, write all the time, finish my thesis, and then resume my life. Unfortunately, that is not at all how the experience has worked out. For the first two weeks of stay at home orders, I was so obsessed with the news cycle that I kept the news on the TV, a tab open on my computer, and talked to my friends daily about the state of the world. I had nightmares and anxiety, despite my daily routine not really changing much. It made no sense to me and it still doesn't as to why I reacted so poorly. Now, six weeks into the pandemic and staying at home, I still struggle to focus solely on writing. It seems somehow like the days are shorter despite having less time committed to social activities and commuting to and from school and work. Soon I will have to defend my thesis via Zoom. I often wonder if I will come across as antagonistic during questions or if I will be able to interpret their body language during my presentation from the small thumbnails. Then, I will have to find an apartment in a new city without being able to tour any apartments in person. What keeps me going throughout all of this is a joke my very good friend told me. He said "Imagine what we will tell our kids when they complain about studying, we finished our degrees during the actual apocalypse."</p>
+
+
+
+
+                    
+
+
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; mikkelsenmk.github.io 2016</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+
+</body>
+
+</html>
